@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация RSComments</name>
+	<tag>ru-RU</tag>
+	<version>1.13.18</version>
+	<creationDate>11/02/2020</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация RSComments</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_rscomments.ini</filename>
+			<filename>ru-RU.com_rscomments.sys.ini</filename>
+			<filename>ru-RU.plg_installer_rscomments.ini</filename>
+			<filename>ru-RU.plg_installer_rscomments.sys.ini</filename>
+		</files>
+
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.com_rscomments.ini</filename>
+		</files>
+	</fileset>
+</extension>
