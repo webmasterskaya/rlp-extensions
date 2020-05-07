@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация Phoca Download Search Plugin</name>
+	<tag>ru-RU</tag>
+	<version>3.2.0</version>
+	<creationDate>18/04/2020</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация Phoca Download Search Plugin</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.plg_search_phocadownload.ini</filename>
+			<filename>ru-RU.plg_search_phocadownload.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация Phoca Email Newsletter Module</name>
+	<tag>ru-RU</tag>
+	<version>3.0.8</version>
+	<creationDate>11/05/2019</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация Phoca Email Newsletter Module</description>
+	<fileset>
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.mod_phocaemail_newsletter.ini</filename>
+			<filename>ru-RU.mod_phocaemail_newsletter.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>
