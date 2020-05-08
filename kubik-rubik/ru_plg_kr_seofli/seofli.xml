@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация SEO Friendly Links and Images (SEOFLI)</name>
+	<tag>ru-RU</tag>
+	<version>3.4.1</version>
+	<creationDate>15/01/2020</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация SEO Friendly Links and Images (SEOFLI)</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.plg_system_seofli.ini</filename>
+			<filename>ru-RU.plg_system_seofli.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

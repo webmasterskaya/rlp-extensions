@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация EasyCalcCheck Plus (ECC Plus)</name>
+	<tag>ru-RU</tag>
+	<version>3.1.6</version>
+	<creationDate>02/07/2019</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация EasyCalcCheck Plus (ECC Plus)</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.plg_system_easycalccheckplus.ini</filename>
+			<filename>ru-RU.plg_system_easycalccheckplus.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>
