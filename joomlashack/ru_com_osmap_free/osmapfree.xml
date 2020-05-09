@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация OSMap Free</name>
+	<tag>ru-RU</tag>
+	<version>4.2.23</version>
+	<creationDate>08/10/2019</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация OSMap Free</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_osmap.ini</filename>
+			<filename>ru-RU.com_osmap.sys.ini</filename>
+			<filename>ru-RU.plg_osmap_joomla.ini</filename>
+			<filename>ru-RU.plg_osmap_joomla.sys.ini</filename>
+			<filename>ru-RU.lib_allediainstaller.sys.ini</filename>
+		</files>
+
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.com_osmap.ini</filename>
+		</files>
+
+		<files folder="site" target="plugins/system/ossystem/language/ru-RU">
+			<filename>ru-RU.plg_system_ossystem.ini</filename>
+			<filename>ru-RU.plg_system_ossystem.sys.ini</filename>
+			<filename>ru-RU.lib_allediainstaller.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

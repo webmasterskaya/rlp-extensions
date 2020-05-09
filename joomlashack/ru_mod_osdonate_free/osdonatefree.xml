@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация OSDonate Free</name>
+	<tag>ru-RU</tag>
+	<version>1.5.7</version>
+	<creationDate>24/01/2020</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация OSDonate Free</description>
+	<fileset>
+		<files folder="site" target="modules/mod_osdonate/language/ru-RU">
+			<filename>ru-RU.mod_osdonate.ini</filename>
+			<filename>ru-RU.mod_osdonate.sys.ini</filename>
+			<filename>ru-RU.lib_allediainstaller.sys.ini</filename>
+		</files>
+
+		<files folder="site" target="plugins/system/ossystem/language/ru-RU">
+			<filename>ru-RU.plg_system_ossystem.ini</filename>
+			<filename>ru-RU.plg_system_ossystem.sys.ini</filename>
+			<filename>ru-RU.lib_allediainstaller.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>
