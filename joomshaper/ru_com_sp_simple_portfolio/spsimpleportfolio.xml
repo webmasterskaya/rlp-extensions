@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="file" method="upgrade">
+	<name>Русская локализация SP Simple Portfolio</name>
+	<tag>ru-RU</tag>
+	<version>1.8</version>
+	<creationDate>03/03/2020</creationDate>
+	<author>Konstantin Kolos</author>
+	<authorEmail>admin@jnotes.net.ua</authorEmail>
+	<authorUrl>https://jnotes.net.ua</authorUrl>
+	<copyright>Copyright (C) 2020 Jnotes.net.ua</copyright>
+	<license>GNU General Public License v2 or later</license>
+	<description>Русская локализация SP Simple Portfolio</description>
+	<fileset>
+		<files folder="admin" target="administrator/language/ru-RU">
+			<filename>ru-RU.com_spsimpleportfolio.ini</filename>
+			<filename>ru-RU.com_spsimpleportfolio.sys.ini</filename>
+		</files>
+
+		<files folder="site" target="language/ru-RU">
+			<filename>ru-RU.com_spsimpleportfolio.ini</filename>
+		</files>
+	</fileset>
+</extension>
