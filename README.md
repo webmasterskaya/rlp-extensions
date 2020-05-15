@@ -1,5 +1,8 @@
 ## Русская локализация расширений Joomla (RLP)
 
+### Akeeba
+- [Akeeba Engage](https://jnotes.net.ua/files/components/ru-akeeba-engage)
+
 ### Andrehotzler
 - [PRISM Syntax Highlighter](https://jnotes.net.ua/files/plugins/ru-prism-syntax-highlighter)
 
